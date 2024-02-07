@@ -15,7 +15,7 @@
             </tbody>
         </table>
         <form @submit.prevent="showMidExchangeRatesA" id="currencyExchangeRateA">
-            <button type="submit">Show Mid Exchange Rates</button>
+            <button class="boldTextButton" type="submit">Show Mid Exchange Rates</button>
         </form>
     </section>
 </template>
